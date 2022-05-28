@@ -40,7 +40,8 @@ ul {
   margin: 0 auto 0;
 }
 
-.task-name,.task-input {
+.task-name,
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -50,11 +51,13 @@ ul {
   display: flex;
 }
 
-.list-item, .list-title {
+.list-item, 
+.list-title {
   list-style: none;
 }
 
-.input,.button {
+.input,
+.button {
   outline: none;
 }
 
