@@ -13,7 +13,7 @@ body {
 .decision-matrix img {
   width: 100%;
 }
-.decision-matrix .more-inf {
+.decision-matrix .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
   .decision-matrix { text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
