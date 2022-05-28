@@ -26,7 +26,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-name,.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -118,17 +118,17 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete img {
+button.button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.button-delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-list label {
   text-decoration: line-through
   color: #888;
 }
