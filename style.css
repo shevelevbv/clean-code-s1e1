@@ -1,44 +1,51 @@
 /* Style reset */
-
 ul {
   margin:0;
   padding: 0;
 }
 
 /* Basic Style */
-
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .decision-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .matrix-image {
   width: 100%;
 }
+
 .decision-matrix .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .decision-matrix { text-align: center;
+
+  .decision-matrix { 
+    text-align: center;
   }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-name,.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .new-task-wrapper {
   display: flex;
 }
@@ -46,9 +53,11 @@ ul {
 .list-item, .list-title {
   list-style:none;
 }
+
 .input,.button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -58,9 +67,11 @@ ul {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .list-title,
 .new-task-label {
@@ -72,6 +83,7 @@ ul {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -84,6 +96,7 @@ ul {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
@@ -93,6 +106,7 @@ ul {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -102,11 +116,11 @@ ul {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list-item > * {
   vertical-align: middle;
 }
@@ -114,20 +128,24 @@ ul {
 .checkbox {
   margin: 0 10px;
 }
+
 .task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-item > .task-input {
   width: 226px
 }
+
 .icon-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .icon-delete:hover {
   transform: rotateZ(0);
 }
